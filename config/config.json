@@ -3,8 +3,9 @@
       "username": "noticias",
       "password": "3e19746cda",
       "database": "noticias",
-      "host": "127.0.0.1",
+      "host": "noticias.imfd.cl",
       "dialect": "mysql"
     }
 
   }
+
