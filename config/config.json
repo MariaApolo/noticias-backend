@@ -1,8 +1,8 @@
 {
     "test": {
-      "username": "root",
-      "password": null,
-      "database": "gene",
+      "username": "noticias",
+      "password": "3e19746cda",
+      "database": "noticias",
       "host": "127.0.0.1",
       "dialect": "mysql"
     }
