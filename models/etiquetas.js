@@ -9,7 +9,7 @@ module.exports = (sequelize, type) => {
 
         id_user: type.INTEGER,
 
-        value: type.BOOLEAN,
+        value: type.INTEGER,
         s1_highlight: type.JSON,
         s2_highlight: type.JSON,
         confidence: type.INTEGER, 
