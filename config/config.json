@@ -1,9 +1,9 @@
 {
     "test": {
-      "username": "root",
+      "username": "noticias",
       "password": "3e19746cda",
-      "database": "gene",
-      "host": "127.0.0.1",
+      "database": "noticias",
+      "host": "noticias.imfd.cl",
       "dialect": "mysql"
     }
 
