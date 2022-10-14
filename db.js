@@ -31,7 +31,7 @@ const Etiqueta = EtiquetaModel(sequelize, Sequelize);
 const User = UserModel(sequelize, Sequelize);
 const Comment = CommentModel(sequelize, Sequelize);
 
-sequelize.sync({ force: true})
+sequelize.sync({ force: false})
     .then(()=> //promesa
     console.log('tablas sincronizadas')) 
 
