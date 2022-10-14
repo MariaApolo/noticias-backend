@@ -3,6 +3,7 @@ const { to, ReE, ReS, ReSCache } = require('../services/util.service')
 
 const { Output } = require('../db'); //obtengo modelo output
 const { Etiqueta } = require('../db');
+const { Comment } = require('../db');
 
 
 
@@ -37,6 +38,17 @@ module.exports = {
         }
         catch (error) {
             return ReE(res, error, 400, "400", "CreateEtiqueta");
+        }
+
+    },
+
+    async createComment(req,res) {
+        try{
+        const comment = await Comment.create(req.body);
+        res.json(comment);
+        }
+        catch (error) {
+            return ReE(res, error, 400, "400", "CreateComment");
         }
 
     },

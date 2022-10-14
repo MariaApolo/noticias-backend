@@ -9,5 +9,6 @@ const { Output } = require('../../db'); //obtengo modelo output
 router.post('/', /*auth,*/ outputController.createOutput);
 router.get('/', /*auth,*/ outputController.getOutputs);
 router.post('/etiqueta', /*auth,*/ outputController.createEtiqueta);
+router.post('/comment', outputController.createComment);
 
 module.exports = router;
