@@ -9,6 +9,7 @@ module.exports = (sequelize, type) => {
         sentence2: type.STRING,
         model_out: type.BOOLEAN,
         real_out: type.BOOLEAN,
+        status: type.BOOLEAN,
 
     })
 

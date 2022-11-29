@@ -11,7 +11,7 @@ module.exports = {
     async getOutputs(req, res) {
 
         try{
-        const outputs = await Output.findAll();
+        const outputs = await Output.findAll({ where: {status: 1}});
         res.json(outputs);
         }
         catch (error) {
